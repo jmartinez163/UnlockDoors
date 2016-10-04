@@ -15,13 +15,27 @@
       function openLeftDoor() {
         document.getElementById("leftDoorStatus").innerHTML = "Open";
         document.getElementById("rightDoor").removeAttribute("disabled");
+<<<<<<< HEAD
+        document.getElementById('Left Door opened');
       }
+
+=======
+      }
+>>>>>>> f5c15a271c8c5a5bf8dca76bfc4adfda037646ba
       /**
        * This function enables the reset door button and also updates the
        * Right door's status. Add a statement to also write to the console
        * that the right door is opened.
       **/
+<<<<<<< HEAD
+      function openRightDoor() {
+        document.getElementById("rightDoorStatus").innerHTML = "Open";
+        document.getElementById("resetDoors").removeAttribute("disabled");
+        document.getElementById('Right Door opened');
+      }// Add function here for opening RIGHT door...
+=======
       // Add function here for opening RIGHT door...
+>>>>>>> f5c15a271c8c5a5bf8dca76bfc4adfda037646ba
 
 
       /**
@@ -30,7 +44,14 @@
        * doors so they don't say they're open.
       **/
       function reset(){
+<<<<<<< HEAD
+        document.getElementById("leftDoorStatus").innerHTML=("");
+        document.getElementById("rightDoorStatus").innerHTML=("");
+        document.getElementById("leftDoor").setAttribute("enabled", "");
+        alert("Everything reset!");
+=======
         document.getElementById("rightDoor").setAttribute("disabled", "");
+>>>>>>> f5c15a271c8c5a5bf8dca76bfc4adfda037646ba
       }
     </script>
   </head>
